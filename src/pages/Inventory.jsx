@@ -69,7 +69,7 @@ const Inventory = () => {
                                 <td className="px-6 py-4 whitespace-nowrap">{p.category}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">{p.warehouseStock}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">{p.shelfStock}</td>
-                                <td className="px-6 py-4 whitespace-nowrap">${(p.price || 0).toFixed(2)}</td>
+                                {/* <td className="px-6 py-4 whitespace-nowrap">${(p.price || 0).toFixed(2)}</td> */}
                                 <td className="px-6 py-4 whitespace-nowrap">{p.expiryDate}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">{p.vendor}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">
